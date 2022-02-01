@@ -1,0 +1,73 @@
+@import './variables';
+.custom-form-control, .custom-btn {
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    padding: 6px 16px 7px 16px;
+    color: #555555;
+}
+
+.custom-navbar .container .custom-form-control:focus {
+    border-color: $btn-danger-color-dark;
+    box-shadow: 0 0 2px 0 $btn-danger-color-dark;
+}
+
+.custom-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+    color: $btn-primary-color-dark;
+}
+
+.custom-btn-primary {
+    color: $brand-primary;
+    border-radius: 4px;
+    border-color: $brand-primary;
+    background-color: transparent;
+}
+
+.custom-btn-primary:hover, .custom-btn-primary:active, .custom-btn-primary:focus, .custom-btn-primary:active:hover, .custom-btn-primary:active:focus {
+    border-color: $btn-primary-color-dark;
+    color:$brand-primary;
+    background-color: transparent;
+}
+.custom-btn-primary2 {
+    color: #000;
+    border-color: $brand-primary;
+    background-color: $brand-primary;
+    border-radius: 4px;
+}
+
+
+.custom-btn-primary2:hover, .custom-btn-primary2:focus, .custom-btn-primary2:active, .custom-btn-primary2:active:hover, .custom-btn-primary2:active:focus {
+    color: #000;
+    border-color: $btn-primary-color-dark;
+    background-color: $btn-primary-color-dark;
+}
+
+.custom-btn-danger {
+    color: $brand-danger;
+    border-color: $brand-danger;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.custom-btn-danger:hover, .custom-btn-danger:active, .custom-btn-danger:focus, .custom-btn-danger:active:hover, .custom-btn-danger:active:focus {
+    color: $btn-danger-color-dark;
+    border-color: $btn-danger-color-dark;
+    background-color: transparent;
+}
+
+.custom-btn-danger {
+    color: $brand-danger;
+    border-color: $brand-danger;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.custom-btn-danger:hover, .custom-btn-danger:active, .custom-btn-danger:focus, .custom-btn-danger:active:hover, .custom-btn-danger:active:focus {
+    color: $btn-danger-color-dark;
+    border-color: $btn-danger-color-dark;
+    background-color: transparent;
+}
